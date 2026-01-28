@@ -83,17 +83,15 @@ h1{font-size:90%;}
     padding: 10px 0px 10px 50px;
     margin-top: 15px;
     background-size: 40px;
+    gap: 10px;
 }
 
 .single_pakeg_text ul li .dish-name {
     font-size: 0.95rem;
-    padding-right: 5px;
 }
 
 .single_pakeg_text ul li .dish-price {
     font-size: 0.95rem;
-    padding-left: 5px;
-    white-space: nowrap;
 }
 
 
@@ -126,6 +124,7 @@ h1{font-size:90%;}
     padding: 8px 0px 8px 45px;
     margin-top: 12px;
     background-size: 35px;
+    gap: 8px;
 }
 
 .single_pakeg_text ul li .dish-name {
@@ -134,10 +133,6 @@ h1{font-size:90%;}
 
 .single_pakeg_text ul li .dish-price {
     font-size: 0.9rem;
-}
-
-.single_pakeg_text ul li::after {
-    margin: 0 3px;
 }
 
 

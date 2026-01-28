@@ -861,34 +861,19 @@ font-size: 5rem;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    overflow: hidden;
+    align-items: center;
+    gap: 15px;
 }
 
 .single_pakeg_text ul li .dish-name {
-    flex: 0 0 auto;
-    padding-right: 10px;
-    position: relative;
-    z-index: 1;
-    background: #fff;
+    flex: 1 1 auto;
 }
 
 .single_pakeg_text ul li .dish-price {
     flex: 0 0 auto;
-    padding-left: 10px;
     font-weight: 600;
-    position: relative;
-    z-index: 1;
-    background: #fff;
-}
-
-.single_pakeg_text ul li::after {
-    content: '';
-    flex: 1 1 auto;
-    border-bottom: 2px dotted #ccc;
-    margin: 0 5px;
-    order: 2;
-    height: 0.5em;
+    color: #E7A331;
+    white-space: nowrap;
 }
 
 /* Mobail Apps Section css */
