@@ -51,7 +51,7 @@ h1{font-size:90%;}
     top: -78px;
     width: 35%;
 }
-	
+
 .single_monail_apps_text {
     margin-top: 40px;
 }
@@ -78,11 +78,29 @@ h1{font-size:90%;}
     margin-top: 14px;
 }
 
+/* Mobile menu item adjustments */
+.single_pakeg_text ul li {
+    padding: 10px 0px 10px 50px;
+    margin-top: 15px;
+    background-size: 40px;
+}
+
+.single_pakeg_text ul li .dish-name {
+    font-size: 0.95rem;
+    padding-right: 5px;
+}
+
+.single_pakeg_text ul li .dish-price {
+    font-size: 0.95rem;
+    padding-left: 5px;
+    white-space: nowrap;
+}
+
 
 }
 
 
-@media screen (min-width:320px) and (max-width:480px){
+@media screen and (min-width:320px) and (max-width:480px){
 
 .header_top_menu .call_us_text{
 	display:none !important;
@@ -91,7 +109,7 @@ h1{font-size:90%;}
     top: -78px;
     width: 35%;
 }
-	
+
 .single_monail_apps_text {
     margin-top: 40px;
 }
@@ -101,6 +119,25 @@ h1{font-size:90%;}
 .menu-scroll .main_menu_bg a.navbar-brand.our_logo {
     top: -16px;
     width: 60%;
+}
+
+/* Extra small screen menu adjustments */
+.single_pakeg_text ul li {
+    padding: 8px 0px 8px 45px;
+    margin-top: 12px;
+    background-size: 35px;
+}
+
+.single_pakeg_text ul li .dish-name {
+    font-size: 0.9rem;
+}
+
+.single_pakeg_text ul li .dish-price {
+    font-size: 0.9rem;
+}
+
+.single_pakeg_text ul li::after {
+    margin: 0 3px;
 }
 
 
