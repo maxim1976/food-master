@@ -1039,19 +1039,22 @@ DEMO DISCLAIMER
 
 .demo-disclaimer {
 	margin-top: 30px;
-	padding: 15px 20px;
-	background-color: rgba(0, 0, 0, 0.3);
-	border-radius: 5px;
+	padding: 16px 24px;
+	background: linear-gradient(135deg, rgba(255, 69, 58, 0.3), rgba(255, 159, 10, 0.3));
+	border: 2px solid rgba(255, 120, 50, 0.6);
+	border-radius: 8px;
 	display: inline-block;
 }
 
 .demo-disclaimer p {
 	margin: 0;
-	color: #ffffff;
-	opacity: 0.9;
+	color: #ffc107;
+	font-weight: bold;
 }
 
 .demo-disclaimer small {
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 1.6;
+	letter-spacing: 0.5px;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
